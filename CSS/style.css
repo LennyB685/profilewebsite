@@ -1,0 +1,65 @@
+
+
+#wrapper
+{display: grid;
+    grid-template-areas:"Logo Header Header"
+                        "Nav Main Sidebar"
+                         "Footer Footer Footer";
+    grid-template-columns: 1fr 6fr 6fr;
+   
+}
+div{border: 7px solid lightblue;
+}
+   
+ 
+
+
+background-color;
+
+h1{text-align: center}
+h1{font-size: 50px}     
+h2{text-align: center}
+h2{font-size: 90px}
+h3{font-size: 40px}
+h3{text-align: center}  
+
+h2{color: lightblue}
+
+img{background-color: lightskyblue}
+h1 {text-align : center}
+
+img{max-height: inherit;}
+    {max-width: inherit;}
+p{font-size: 20px}
+p{color: black}s
+nav{font-size:50px}
+nav{color: lightskyblue}
+
+#Logo {
+    grid-area: Logo;
+object-fit: fill;
+    
+}
+#Main{
+    grid-area: Main;
+}
+#Nav{
+    grid-area: Nav;
+ 
+}  
+#Sidebar{
+    grid-area: Sidebar;
+
+}
+#Footer{
+    grid-area: Footer;
+}
+#Head{
+    grid-area: Header;
+}
+div{border: 14px solid red;
+}
+img{
+height: 250px;
+}
+
